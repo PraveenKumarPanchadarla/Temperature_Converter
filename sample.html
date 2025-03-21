@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple" rel="stylesheet">
+    <title>Converter</title>
+</head>
+<body>
+    <script src="./app.js"></script>
+    <div id="container">
+        <span id="main">Temperature Converter
+            <img src="https://cdn-icons-png.flaticon.com/512/1779/1779940.png" id="logo">
+        </span>
+        <div id="heado">
+            <span id="headere" class="same">Celsius</span>
+            <span id="headeres" class="same">Fahrenheit</span>
+        </div>
+        <div id="block">
+            <input type="text" id="first" placeholder="ºC" onkeyup="calc(this.value);">
+            <img id="et" src="https://www.pngarts.com/files/4/Equal-Sign-Download-PNG-Image.png">
+            <input type="text" id="last" placeholder="ºF" onkeyup="calced(this.value);">
+        </div>
+    </div>
+</body>
+</html>

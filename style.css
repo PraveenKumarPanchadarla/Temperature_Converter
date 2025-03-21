@@ -1,0 +1,107 @@
+#first{
+    width:130px;
+    height:70px;
+    background-color: #463443;
+    border-radius:10px;
+    border:3px solid;
+    color: #faed26;
+    font-size: 30px;
+    font-weight: bold;
+    text-align:center;
+    cursor:pointer;
+
+}
+#last{
+    width:130px;
+    height:70px;
+    background-color: #463443;
+    border-radius:10px;
+    border:3px solid;
+    color: #faed26;
+    font-size: 30px;
+    font-weight: bold;
+    text-align:center;
+    cursor:pointer;
+
+}
+
+#container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:600px;
+    height:120px;
+    padding:270px 0;
+    margin:auto;
+}
+.box{
+    padding-right:30px;
+}
+body{
+    display:flex;
+    background-color: #8fc1e3;
+    background-image: url("https://cdn.wallpapersafari.com/69/32/LBk7YE.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+#first:hover,#last:hover{
+    background-color: #463443;
+    opacity:0.8;
+}
+#first:focus,#last:focus{
+    background-color: #463422;
+    
+}
+
+#block{
+    display:flex;
+    justify-content: space-between;
+    width:500px;
+    height:60px;
+    margin:auto;
+}
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+#heado{
+    display:flex;
+    justify-content: space-between;
+    width:500px;
+    margin:auto;
+}
+#headere{
+    text-align:center;
+    font-weight:bold;
+    font-family:"press start 2p"; 
+    font-size:20px;
+    color:#323232;
+}
+#headeres{
+    text-align:center;
+    font-weight:bold;
+    font-family:"press start 2p"; 
+    font-size:20px;
+    color:#323232;
+    padding-left:59px;
+
+}
+#main{
+    text-align:center;
+    font-weight: bold;
+    padding-bottom:35px;
+    font-family:"Tangerine";
+    font-size:50px;
+}
+#logo{
+    width:45px;
+    height:45px;
+}
+
+.same{
+    padding:20px;
+}
+
+#et{
+    width:100px;
+    height:80px;
+}
